@@ -34,7 +34,7 @@ solution("tomas", 991108);
 // 비밀번호 만들기
 
 function solution(birth, date) {
-  const pw = birth + date;    //number + number를 하면 계산되는 것이 아닌지?? 문자로 바꿔줘야 하지 않나?
+  const pw = birth + date;
   return "비밀번호는 " + pw + "입니다.";
   `비밀번호는 ${pw}입니다.`;  // 템플릿 리터럴로 문자와 숫자를 혼합해서 작성 가능, 변수 안에 계산식도 사용 가능
 }
