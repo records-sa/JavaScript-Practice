@@ -51,6 +51,7 @@ function solution(num1, num2) {
 // Math.floor()는 소수점을 내림하는 메서드
 // ex) Math.floor(23.3) = 23, Math.floor(-23.3) = -24
 // 음수일 경우를 생각해서 소수점 이하 수를 없애고 싶을 때는 Math.trunc()가 좋음
+// 하지만 Internet Explorer에서는 지원하지 않음
 
 
 // 각도기
