@@ -65,7 +65,7 @@ function solution(numbers, num1, num2) {
     return numbers.slice(num1, num1 + (num2 - num1) + 1);
 }
 // 처음에 numbers.slice(num1, num1 + num2); 이렇게 풀었는데 테스트 케이스는 통과했는데 제출하니까 실패해서 어디서 틀린지 찾아내는데 한참 걸렸다.
-// arr.slice(시작 인덱스, 끝 인덱스 -1)!!
+// arr.slice(시작 인덱스, 끝 인덱스 -1)!
 
 
 // 다른 풀이
